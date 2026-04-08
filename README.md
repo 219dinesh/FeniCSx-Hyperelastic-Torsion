@@ -29,7 +29,7 @@ Where $\mu$ and $\lambda$ are the Lamé parameters derived from Young's Modulus 
 
 The simulation solves for the displacement field $u \in V$ such that for all test functions $v \in \hat{V}$, the virtual work equation is satisfied:
 
-$$\int_{\Omega} P : \nabla v \, dx - \int_{\Omega} B \cdot v \, dx - \int_{\partial \Omega_T} T \cdot v \, ds = 0$$
+$$\int_{\Omega} P : \nabla v \ dx - \int_{\Omega} B \cdot v \ dx - \int_{\partial \Omega_T} T \cdot v \ ds = 0$$
 
 **Where:**
 * **$P$**: The First Piola-Kirchhoff stress tensor.
@@ -39,7 +39,7 @@ $$\int_{\Omega} P : \nabla v \, dx - \int_{\Omega} B \cdot v \, dx - \int_{\part
 
 The first Piola-Kirchhoff stress tensor is defined as $P = \frac{\partial \psi}{\partial F}$. The weak form of the equilibrium equation (ignoring body forces and tractions for this specific problem) is formulated as:
 
-$$\int_{\Omega} P : \nabla v \, dx = 0$$
+$$\int_{\Omega} P : \nabla v \ dx = 0$$
 
 ## Installation and Setup
 
