@@ -25,7 +25,18 @@ $$\psi = \frac{\mu}{2} (I_c - 3) - \mu \ln(J) + \frac{\lambda}{2} (\ln(J))^2$$
 
 Where $\mu$ and $\lambda$ are the Lamé parameters derived from Young's Modulus ($E = 100$) and Poisson's ratio ($\nu = 0.3$).
 
-### Weak Form
+### Weak Form of the Equilibrium Equation
+
+The simulation solves for the displacement field $u \in V$ such that for all test functions $v \in \hat{V}$, the virtual work equation is satisfied:
+
+$$\int_{\Omega} P : \nabla v \, dx - \int_{\Omega} B \cdot v \, dx - \int_{\partial \Omega_T} T \cdot v \, ds = 0$$
+
+**Where:**
+* **$P$**: The First Piola-Kirchhoff stress tensor.
+* **$\nabla v$**: The gradient of the test function with respect to the reference configuration.
+* **$B$**: Body forces per unit reference volume (e.g., gravity).
+* **$T$**: Traction forces applied to the boundary surface $\partial \Omega_T$.
+
 The first Piola-Kirchhoff stress tensor is defined as $P = \frac{\partial \psi}{\partial F}$. The weak form of the equilibrium equation (ignoring body forces and tractions for this specific problem) is formulated as:
 
 $$\int_{\Omega} P : \nabla v \, dx = 0$$
