@@ -7,7 +7,7 @@
 This repository contains a high-performance 3D computational mechanics simulation of a column undergoing large torsional deformation. The model is implemented using **FEniCSx (DOLFINx)** and utilizes a robust nonlinear solver with the MUMPS direct solver for optimal computational speed.
 
 ## Visualizing the Torsion
-*![Torsion Animation](media/torsion_animation.gif)*
+*![Torsion Animation](media/Torsion_animation.gif)*
 
 ## Mathematical Formulation
 
