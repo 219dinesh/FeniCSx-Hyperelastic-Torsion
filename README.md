@@ -43,3 +43,9 @@ $$\int_{\Omega} P : \nabla v \ dx = 0$$
 ## Installation and Setup
 
 This code is designed to run in a FEniCSx environment, typically managed via Conda or Docker. It is highly recommended to run this within a **WSL (Windows Subsystem for Linux)** environment if you are on a Windows machine.
+
+## Execution
+ ```bash
+python3 torsion_simulation.py
+ ```
+Output files (.xdmf for ParaView visualization) are generated in the specified directory.
