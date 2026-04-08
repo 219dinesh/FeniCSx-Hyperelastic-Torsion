@@ -2,7 +2,6 @@
 
 ![FEniCSx](https://img.shields.io/badge/FEniCSx-DOLFINx-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 This repository contains a high-performance 3D computational mechanics simulation of a column undergoing large torsional deformation. The model is implemented using **FEniCSx (DOLFINx)** and utilizes a robust nonlinear solver with the MUMPS direct solver for optimal computational speed.
 
